@@ -21,7 +21,7 @@ PRINT_CURRENT_FILE = echo -ne $(COLOR_PRINT_GREEN)"\r Currently Building File" $
 endif
 
 # The binary name
-TARGET_BINARY ?= c-template
+TARGET_BINARY ?= c-rest-server
 
 # The build directory, where the target binary will be stored
 BUILD_DIR ?= ./build
